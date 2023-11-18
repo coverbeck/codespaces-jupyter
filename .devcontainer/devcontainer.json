@@ -6,6 +6,7 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",
+  "postAttachCommand": "code /workspaces/codespaces-jupyter/notebooks/population.ipynb",
   "customizations": {
     "codespaces": {
       "openFiles": []
